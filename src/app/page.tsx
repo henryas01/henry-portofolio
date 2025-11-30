@@ -38,7 +38,6 @@ const calculateTimeLeft = () => {
   return timeLeft;
 };
 
-// --- Komponen Utama Halaman ---
 export default function ComingSoonPage() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [isLaunched, setIsLaunched] = useState(false);
@@ -77,12 +76,12 @@ export default function ComingSoonPage() {
         className="max-w-4xl w-full p-8 space-y-8 bg-white/5 backdrop-blur-md rounded-3xl
                       border border-white/10 shadow-[0_0_80px_rgba(168,85,247,0.5)]"
       >
-        {/* Ikon Jam */}
+        {/* Clock */}
         <div className="flex justify-center mb-8">
           <Clock className="w-14 h-14 sm:w-16 sm:h-16 text-white animate-spin-slow" />
         </div>
 
-        {/* Judul Utama */}
+        {/* Title */}
         <h1
           className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text
                        bg-gradient-to-r from-purple-400 to-pink-400 tracking-tighter"
@@ -92,7 +91,7 @@ export default function ComingSoonPage() {
             : "Henry Albiri S. | Software Engineer Portfolio"}
         </h1>
 
-        {/* SUBTEKS (Keahlian Inti & Animasi) */}
+        {/* SUBTEKS */}
         <p className="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
           {isLaunched ? (
             "Access our Marketplace, SAAS, and Real-Time projects now."
@@ -138,7 +137,7 @@ export default function ComingSoonPage() {
           </div>
         )}
 
-        {/* PENGGANTI FORMULIR: Tombol LinkedIn */}
+        {/*  Button to LinkedIn */}
         <div className="flex justify-center pt-4">
           {isLaunched ? (
             // Tampilan saat sudah diluncurkan
@@ -155,7 +154,7 @@ export default function ComingSoonPage() {
               <ArrowRight className="w-5 h-5" />
             </a>
           ) : (
-            // Tampilan saat Coming Soon: Tombol Connect on LinkedIn
+            //  Connect on LinkedIn
             <a
               href="https://www.linkedin.com/in/henry-albiri-salsabila-376b92151/" // Link LinkedIn Anda
               target="_blank"
@@ -170,7 +169,6 @@ export default function ComingSoonPage() {
             </a>
           )}
         </div>
-        {/* Catatan: Tag <form> diganti dengan <div> karena tidak ada aksi submit. */}
       </main>
 
       {/* Teks Footer */}
