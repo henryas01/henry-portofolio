@@ -94,31 +94,8 @@ export default async function RootLayout({
   const dictionaryObj = await ServerSideTranslations(["common"]);
 
   return (
-    <html translate="no" lang="id">
-      <Head>
-        {preconnectUrls.map((url) => (
-          <React.Fragment key={url}>
-            <link rel="dns-prefetch" href={url} />
-            <link rel="preconnect" href={url} crossOrigin="" />
-          </React.Fragment>
-        ))}
-
-        <meta name="author" content={Constants.SITE.NAME} />
-        <meta name="application-name" content={Constants.SITE.NAME} />
-        <meta name="generator" content="Next.js" />
-
-        {/* MOBILE */}
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-title" content={Constants.SITE.NAME} />
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent"
-        />
-
-        <meta name="theme-color" content={Constants.SITE.THEME_COLOR} />
-
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <html lang="en">
+      <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -132,9 +109,6 @@ export default async function RootLayout({
             }),
           }}
         />
-      </Head>
-
-      <body lang="en">
         <StateProvider>
           <Translations _PropsTranslation={dictionaryObj} locale={locale}>
             {children}
