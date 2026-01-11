@@ -1,0 +1,290 @@
+{
+  "list-projects": [
+    {
+      "category": "WEB",
+      "name": "E-Commerce Web Platform",
+      "nameApp": "RenosIdWeb",
+      "company": "PT. Renos Id Marketplace",
+      "years": "2022 - 2025",
+      "description": "Renos.ID is an end-to-end online marketplace focused on home and living products, connecting manufacturers, service providers, and homeowners through AI-driven technology and industry-grade operational standards.",
+      "features": [
+        "Developed and maintained a scalable e-commerce marketplace platform",
+        "Improved SEO performance to increase organic traffic and search visibility",
+        "Upgraded legacy architecture to a modern Next.js application",
+        "Implemented localization and multi-language support for broader market reach"
+      ],
+      "linkProject": "https://www.renos.id/",
+      "techStack": [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "JWT",
+        "Styled Components",
+        "Husky",
+        "Jest"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "Mobile Web",
+      "name": "E-Commerce Mobile Platform",
+      "nameApp": "RenosIdMobile",
+      "company": "PT. Renos Id Marketplace",
+      "years": "2022 - 2025",
+      "description": "Renos.ID is an end-to-end online marketplace focused on home and living products, connecting manufacturers, service providers, and homeowners through AI-driven technology and industry-grade operational standards.",
+      "features": [
+        "Developed and maintained a scalable e-commerce marketplace platform",
+        "Improved SEO performance to increase organic traffic and search visibility",
+        "Upgraded legacy architecture to a modern Next.js application",
+        "Implemented localization and multi-language support for broader market reach"
+      ],
+      "linkProject": "https://www.renos.id/",
+      "techStack": [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "JWT",
+        "Styled Components",
+        "Husky",
+        "Jest"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Route Optimization & Tracking Platform",
+      "nameApp": "MileApp",
+      "company": "PT Paket Informasi Digital",
+      "years": "2020 – 2022",
+      "description": "A management platform for route optimization, real-time tracking, and SaaS",
+      "features": [
+        "Developed management dynamic custom fields for route optimization and tracking interfaces",
+        "Built real-time features using Socket.IO and Integrated Firebase push notifications",
+        "Automated export features (PDF, Excel, CSV) for 5,000–20,000 daily records"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "PHP Native",
+        "Vue.js",
+        "Vuex",
+        "Socket.IO",
+        "Firebase",
+        "Axios"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "MOBILE",
+      "name": "Doctor Appointment",
+      "nameApp": "DocAPP",
+      "company": "DocAPP",
+      "years": "2025 – 2026",
+      "status": "developing",
+      "description": "A mobile application for booking and managing doctor appointments with real-time notifications.",
+      "features": [
+        "Built Android application using Kotlin and Jetpack Compose",
+        "Integrated WhatsApp notification system",
+        "Developed backend services using NestJS"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "NestJS",
+        "MySQL"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/dokapp-android-kotlin",
+          "https://github.com/henryas01/DokApp-android-nestjs"
+        ]
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Financial Services Platform",
+      "nameApp": "BFIWeb",
+      "company": "PT BFI Finance Indonesia Tbk",
+      "years": "2019 – 2020",
+      "description": "BFI Finance is one of Indonesia’s oldest multifinance companies, publicly listed on the Indonesia Stock Exchange and operating nationwide financial services.",
+      "features": [
+        "Developed frontend architecture using React.js",
+        "Built and integrated APIs using .NET Core",
+        "Implemented financial data validation and server-side pagination"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        ".NET Core 3",
+        "SQL Server",
+        "jQuery",
+        "jQuery Validation",
+        "DataTables",
+        "REST API"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "MOBILE LLM",
+      "name": "MeetBuddy",
+      "nameApp": "MeetBuddy",
+      "company": "MeetBuddy",
+      "years": "2025 – 2026",
+      "status": "developing",
+      "description": "An AI-powered meeting assistant application based on Large Language Models, currently under active development.",
+      "features": [
+        "Designed LLM-based core features using Phi-4-mini model",
+        "Developed Python backend with real-time streaming support",
+        "Built Android client and REST API using NestJS"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Python",
+        "Phi-4-mini",
+        "WebSocket",
+        "NestJS",
+        "MySQL"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/meetbuddy-android-python-llm",
+          "https://github.com/henryas01/meetbuddy-android-kotlin",
+          "https://github.com/henryas01/meetbuddy-android-nestjs"
+        ]
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Digital Library System",
+      "nameApp": "DigitalLibrary",
+      "company": "DigitalLibrary",
+      "years": "2019 – 2020",
+      "description": "A digital library and content management system for managing student book borrowing and academic resources.",
+      "features": [
+        "Built CMS and user management system",
+        "Developed book borrowing and tracking features",
+        "Integrated analytics, email notifications, and reporting dashboards"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "Laravel 7",
+        "jQuery",
+        "Chart.js",
+        "Font Awesome",
+        "SMTP Email (Gmail)",
+        "Google Analytics"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Education Platform",
+      "nameApp": "MoleaWiz",
+      "company": "PT Digital Animasi Asia",
+      "years": "2018 – 2019",
+      "description": "MoleaWiz is a digital learning platform built on Moodle and used by CIMB Niaga to support structured online education and training programs.",
+      "features": [
+        "Developed front-end interfaces for learning modules and dashboards",
+        "Built and maintained backend services using CodeIgniter",
+        "Designed and managed server-side architecture and database systems"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "REST API",
+        "CodeIgniter 3",
+        "Font Awesome",
+        "jQuery"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Digima Web Profile",
+      "nameApp": "DigimaWeb",
+      "company": "PT Digital Animasi Asia",
+      "years": "2018 – 2019",
+      "description": "Digima Asia is a technology solutions company specializing in digital learning platforms and enterprise technology services.",
+      "features": [
+        "Developed responsive company profile website",
+        "Implemented backend services using native PHP",
+        "Handled server configuration and database integration"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "PHP Native",
+        "jQuery",
+        "Parallax.js"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "MOBILE & WEB",
+      "name": "E Commerce UMKM Project",
+      "nameApp": "Ndenokum",
+      "company": "Ndenokum",
+      "years": "2025",
+      "description": "A modern e-commerce platform for small business owners to sell their products online. Experience the convenience of online shopping with Ndenokum. Discover a new way to grow and sell your products online.",
+      "features": [
+        "Modern UI built with React + Next.js for web",
+        "Native mobile functionality using Kotlin and Jetpack Compose",
+        "User authentication and secure session handling",
+        "Real-time notifications and updates"
+      ],
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "thailwindcss"
+      ],
+      "linkProject": "https://ndenokum.vercel.app/",
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/ndenokum"
+        ]
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Movie Application",
+      "nameApp": "MovieApp",
+      "company": "MovieApp",
+      "years": "2019 – 2020",
+      "description": "A full-stack movie application for browsing, searching, and managing movie data.",
+      "features": [
+        "Developed frontend using React and Redux",
+        "Built backend API using Express.js",
+        "Integrated external movie APIs for real-time data"
+      ],
+      "techStack": [
+        "React.js",
+        "Express.js",
+        "Redux",
+        "Material UI",
+        "Axios",
+        "Fetch API"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/moive"
+        ]
+      }
+    }
+  ]
+}
