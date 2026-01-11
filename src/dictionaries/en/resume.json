@@ -1,0 +1,104 @@
+{
+  "title": "Full Stack Developer & Software Engineer",
+  "about": "I’m a Software Engineer with over 7 years of experience working across industries such as Marketplace, SaaS, Finance industries, and Education. \n I have strong experience in modern frontend technologies including Next.js, React, and Vue.js, as well as backend development using NestJS, Node.js (Express) .NetCore, and PHP Laravel. \n I also have experience in mobile application development using Kotlin with Jetpack Compose. \n Currently, I’m focusing on research and development in Large Language Models (LLMs) using Python, and I’m actively exploring AI development with the Phi-4-mini base model. \n I’m highly interested in AI technology and enjoy learning, experimenting, and building solutions that create real impact.",
+  "philosophy": {
+    "point1": "Extraordinary results come from extraordinary actions.",
+    "point2": "Focus on your goals, and embrace problem-solving.",
+    "point3": "Success isn’t about “can” or “can’t,” it’s about “want” or “don’t want.”"
+  },
+  "p": "<strong>dada</strong> test",
+  "workExperience": {
+    "title": "Work Experience",
+    "company1": {
+      "name": "PT. Renos Id Marketplace",
+      "role": "Senior Software Engineer",
+      "period": "2022 – July 2025",
+      "description": [
+        "<strong>Marketplace Development:</strong> Delivered a high-performance marketplace app using Next.js (TypeScript), REST APIs, JWT authentication, React Query, Styled-Components, and SASS, supporting 10,000+ users and reducing load times by 40%.",
+        "<strong>SEO Optimization:</strong> Enhanced search visibility by integrating schema.org (JSON-LD), resulting in a20% increase in organic search traffic and higher rankings in Google search results, driving newuser acquisition.",
+        "<strong>Next.js Application Upgrade:</strong> Optimized system performance by upgrading from Next.js 12 to15, improving SSR, reducing load times by 30%, and enhancing development efficiency.",
+        "<strong>Localization Features:</strong> Successfully implemented native function inspired by the next-i18next, enabling seamless multilingual support and reducing localization implementation time by 50%."
+      ]
+    },
+    "company2": {
+      "name": "PT. Paket Informasi Digital",
+      "role": "Senior Frontend Engineer",
+      "period": "2020 – 2022",
+      "description": [
+        "<strong>SaaS Development:</strong> Implemented dynamic custom fields in a field operations management app, increasing user satisfaction by 70% using Vue.js, Laravel, and MongoDB.",
+        "<strong>Real-Time Application:</strong> Refined feature chat responsiveness with FeathersJS andSocket.IO, boosting user engagement by 30%.",
+        "<strong>Unit Testing:</strong> Achieved 90% test coverage with Jest and Vue Test Utils, reducing production bugs significantly.",
+        "<strong>Data Reporting:</strong> Automated export features (PDF, Excel, CSV) for 5,000–20,000 daily records, saving 15 hours weekly and improving performance."
+      ]
+    },
+    "company3": {
+      "name": "PT. BFI Finance",
+      "role": "Frontend Engineer",
+      "period": "2019 – 2020",
+      "description": [
+        "<strong>Finance Service:</strong> Delivered a secure web app for 400,000+ users, improving transaction efficiency by 30% using .NET Core, C#, SQL Server, and jQuery.",
+        "<strong>Frontend Architecture (ReactJS):</strong> Redesigned frontend with ReactJS, boosting load performance by 65% and achieving a 95% Lighthouse score.",
+        "<strong>API Development (.NET Core):</strong> Developed custom APIs, improving system scalability and reducing API response time by 25%."
+      ]
+    },
+    "company4": {
+      "name": "PT Digital Animasi Asia",
+      "role": "Technology Specialist",
+      "period": "2018 – 2019",
+      "description": [
+        "<strong>Certification:</strong> Earned Google Developer Certificate, increasing web development skills by 70%.",
+        "<strong>Front-End Development:</strong> Improved usability by 25% and performance by 30% using jQuery and Bootstrap 4. Increased mobile engagement by 70% with responsive design.",
+        "<strong>Back-End Development:</strong> Optimized Moodle (PHP, Lumen), improving efficiency by 30% and enhancing user experience.",
+        "<strong>Server & Database Development:</strong> Achieved 99.9% uptime, optimized data management with Load Balancers, Query Optimization, and Redis SSL/TLS."
+      ]
+    }
+  },
+  "list-education": [
+    {
+      "institution": "Universitas Serang Raya",
+      "degree": "Bachelor’s in Informatics Engineering (S1)",
+      "location": "Serang, Indonesia",
+      "period": "2025 – Present",
+      "description": "Focused on software engineering with hands-on experience building modern applications and understanding core computer science principles."
+    },
+    {
+      "institution": "AMIK Serang ",
+      "degree": "Associate Degree in Informatics Management (D3)",
+      "location": "Serang, Indonesia",
+      "period": "2016 – 2019",
+      "description": "Studied programming fundamentals, database systems, and information systems management, building a strong foundation in software development and IT operations."
+    }
+  ],
+  "skills": {
+    "title": "Skills & Technologies",
+    "technicalSkills": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Python FastAPI",
+      "PHP (Laravel)",
+      "kotlin",
+      "NestJS",
+      "React.js",
+      "Next.js",
+      "Vue.js",
+      "Node.js",
+      "RESTful APIs",
+      "SQL & NoSQL Databases",
+      "Docker",
+      "HTML5 & CSS3",
+      "SASS & Styled-Components",
+      "Git & GitHub",
+      "Jest & React Testing Library",
+      "Agile & Scrum"
+    ],
+    "softSkills": [
+      "Problem-Solving",
+      "Team Collaboration",
+      "Effective Communication",
+      "Adaptability",
+      "Time Management"
+    ]
+  },
+  "downloadResume": "Download Resume",
+  "about-me": "About Me"
+}

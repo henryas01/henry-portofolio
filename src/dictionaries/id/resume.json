@@ -1,0 +1,103 @@
+{
+  "title": "Full Stack Developer & Software Engineer",
+  "about": "Saya adalah seorang Software Engineer dengan pengalaman lebih dari 7 tahun bekerja di berbagai industri seperti Marketplace, SaaS, keuangan, dan Pendidikan. \n Saya memiliki pengalaman yang kuat dalam teknologi frontend modern termasuk Next.js, React, dan Vue.js, serta pengembangan backend menggunakan NestJS, Node.js (Express) .NetCore, dan PHP Laravel. \n Saya juga memiliki pengalaman dalam pengembangan aplikasi mobile menggunakan Kotlin dengan Jetpack Compose. \n Saat ini, saya sedang fokus pada penelitian dan pengembangan dalam model bahasa besar (LLMs) menggunakan Python, dan saya sedang aktif menjelajahi pengembangan AI dengan model dasar Phi-4-mini. \n Saya sangatat tertarik dengan teknologi AI dan senang belajar, bereksperimen, dan membangun solusi yang memiliki dampak nyata.",
+  "philosophy": {
+    "point1": "Hasil yang luar biasa datang dari aksi yang luar biasa.",
+    "point2": "Fokus pada tujuan dan terima dengan permasalahan.",
+    "point3": "Kesuksesan bukan tentang “bisa” atau “tidak bisa”, tapi tentang “ingin” atau “tidak ingin”."
+  },
+  "workExperience": {
+    "title": "Pengalaman Kerja",
+    "company1": {
+      "name": "PT. Renos Id Marketplace",
+      "role": "Senior Software Engineer",
+      "period": "2022 – Juli 2025",
+      "description": [
+        "Pengembangan Aplikasi Marketplace: Mengirimkan aplikasi marketplace dengan kinerja tinggi menggunakan Next.js (TypeScript), REST APIs, JWT authentication, React Query, Styled-Components, dan SASS, yang mendukung 10,000+ pengguna dan mengurangi waktu loading sebanyak 40%.",
+        "Optimasi SEO: Meningkatkan visibilitas pencarian dengan mengintegrasikan schema.org (JSON-LD), menghasilkan peningkatan lalu lintas pencarian organik sebanyak 20% dan peringkat lebih tinggi di hasil pencarian Google.",
+        "Peningkatan Aplikasi Next.js: Mengoptimalkan kinerja sistem dengan meningkatkan dari Next.js 12 ke 15, meningkatkan SSR, mengurangi waktu loading sebanyak 30%, dan meningkatkan efisiensi pengembangan.",
+        "Fitur Lokalisasi: Mengimplemenasikan fitur lokalisasi yang native seperti next-i18next, memungkinkan dukungan yang mulus dan mengurangi waktu implementasi sebanyak 50%."
+      ]
+    },
+    "company2": {
+      "name": "PT. Paket Informasi Digital",
+      "role": "Senior Frontend Engineer",
+      "period": "2020 – 2022",
+      "description": [
+        "Pengembangan SaaS: Mengimplemenasikan bidang kustom di aplikasi manajemen operasional lapangan menggunakan Vue.js, Laravel, dan MongoDB, meningkatkan kepuasan pengguna sebanyak 70%.",
+        "Aplikasi Real-Time: Mengoptimalkan fitur chat responsiveness dengan menggunakan FeathersJS dan Socket.IO, meningkatkan kepuasan pengguna sebanyak 30%.",
+        "Pengujian Unit: Mencapai cakupan pengujian sebanyak 90% dengan menggunakan Jest dan Vue Test Utils, mengurangi bug produksi secara signifikan.",
+        "Laporan Data: Mengotomatisasi fitur ekspor data (PDF, Excel, CSV) untuk 5,000–20,000 catatan harian, menghemat waktu 15 jam per minggu dan meningkatkan kinerja."
+      ]
+    },
+    "company3": {
+      "name": "PT. BFI Finance",
+      "role": "Frontend Engineer",
+      "period": "2019 – 2020",
+      "description": [
+        "Jasa Keuangan: Mengirimkan aplikasi web yang aman untuk 400,000+ pengguna, meningkatkan efisiensi transaksi sebanyak 30% menggunakan .NET Core, C#, SQL Server, dan jQuery.",
+        "Arsitektur Frontend (ReactJS): Merancang frontend dengan menggunakan ReactJS, meningkatkan kinerja loading sebanyak 65% dan mencapai skor Lighthouse 95%.",
+        "Pengembangan API (.NET Core): Mengembangkan API kustom, meningkatkan skalabilitas sistem dan mengurangi waktu respon API sebanyak 25%."
+      ]
+    },
+    "company4": {
+      "name": "PT Digital Animasi Asia",
+      "role": "Technology Specialist",
+      "period": "2018 – 2019",
+      "description": [
+        "Sertifikasi: Menerima sertifikasi Google Developer Certificate, meningkatkan kemampuan pengembangan web sebanyak 70%.",
+        "Pengembangan Front-End: Meningkatkan kegunaan sebanyak 25% dan kinerja sebanyak 30% menggunakan jQuery dan Bootstrap 4. Meningkatkan kepuasan pengguna mobile sebanyak 70% dengan menggunakan desain responsif.",
+        "Pengembangan Back-End: Mengoptimalkan kinerja Moodle (PHP, Lumen), meningkatkan efisiensi sebanyak 30% dan meningkatkan pengalaman pengguna.",
+        "Pengembangan Server & Database: Mencapai uptime 99.9%, mengoptimalkan pengelolaan data menggunakan Load Balancers, Query Optimization, dan Redis SSL/TLS."
+      ]
+    }
+  },
+  "list-education": [
+    {
+      "institution": "Universitas Serang Raya",
+      "degree": "Sarjana Teknik Informatika (S1)",
+      "location": "Serang, Indonesia",
+      "period": "2025 – Sekarang",
+      "description": "Berfokus pada rekayasa perangkat lunak dengan pengalaman langsung membangun aplikasi modern dan memahami prinsip-prinsip ilmu pengetahuan komputer."
+    },
+    {
+      "institution": "AMIK Serang ",
+      "degree": "Diploma Teknik Informatika (D3)",
+      "location": "Serang, Indonesia",
+      "period": "2016 – 2019",
+      "description": "Studi dasar-dasar pemrograman, sistem basis data, dan manajemen sistem informasi, membangun fondasi yang kuat dalam pengembangan perangkat lunak dan operasi TI."
+    }
+  ],
+  "skills": {
+    "title": "Keterampilan & Teknologi",
+    "technicalSkills": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Python FastAPI",
+      "PHP (Laravel)",
+      "kotlin",
+      "NestJS",
+      "React.js",
+      "Next.js",
+      "Vue.js",
+      "Node.js",
+      "RESTful APIs",
+      "Basis Data SQL & NoSQL",
+      "Docker",
+      "HTML5 & CSS3",
+      "SASS & Styled-Components",
+      "Git & GitHub",
+      "Jest & React Testing Library",
+      "Agile & Scrum"
+    ],
+    "softSkills": [
+      "Pemecahan Masalah",
+      "Kolaborasi Tim",
+      "Komunikasi Efektif",
+      "Adaptabilitas",
+      "Manajemen Waktu"
+    ]
+  },
+  "downloadResume": "Unduh Resume",
+  "about-me": "Tentang Saya"
+}

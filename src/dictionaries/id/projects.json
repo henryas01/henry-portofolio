@@ -1,0 +1,290 @@
+{
+  "list-projects": [
+    {
+      "category": "WEB",
+      "name": "Platform Web E-Commerce",
+      "nameApp": "RenosIdWeb",
+      "company": "PT. Renos Id Marketplace",
+      "years": "2022 - 2025",
+      "description": "Renos.ID adalah marketplace online end-to-end yang berfokus pada produk home and living, menghubungkan produsen, penyedia layanan, dan pemilik rumah melalui teknologi berbasis AI dan standar operasional kelas industri.",
+      "features": [
+        "Mengembangkan dan mengelola platform marketplace e-commerce yang skalabel",
+        "Meningkatkan performa SEO untuk menambah lalu lintas organik dan visibilitas pencarian",
+        "Melakukan upgrade arsitektur lama ke aplikasi Next.js modern",
+        "Mengimplementasikan lokalisasi dan dukungan multibahasa untuk jangkauan pasar yang lebih luas"
+      ],
+      "linkProject": "https://www.renos.id/",
+      "techStack": [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "JWT",
+        "Styled Components",
+        "Husky",
+        "Jest"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "Mobile Web",
+      "name": "Platform Mobile E-Commerce",
+      "nameApp": "RenosIdMobile",
+      "company": "PT. Renos Id Marketplace",
+      "years": "2022 - 2025",
+      "description": "Renos.ID adalah marketplace online end-to-end yang berfokus pada produk home and living, menghubungkan produsen, penyedia layanan, dan pemilik rumah melalui teknologi berbasis AI dan standar operasional kelas industri.",
+      "features": [
+        "Mengembangkan dan mengelola platform marketplace e-commerce yang skalabel",
+        "Meningkatkan performa SEO untuk menambah lalu lintas organik dan visibilitas pencarian",
+        "Melakukan upgrade arsitektur lama ke aplikasi Next.js modern",
+        "Mengimplementasikan lokalisasi dan dukungan multibahasa untuk jangkauan pasar yang lebih luas"
+      ],
+      "linkProject": "https://www.renos.id/",
+      "techStack": [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "JWT",
+        "Styled Components",
+        "Husky",
+        "Jest"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Platform Pelacakan & Optimalisasi Rute",
+      "nameApp": "MileApp",
+      "company": "PT Paket Informasi Digital",
+      "years": "2020 – 2022",
+      "description": "Platform manajemen untuk optimalisasi rute, pelacakan waktu nyata (real-time), dan SaaS.",
+      "features": [
+        "Mengembangkan manajemen field kustom dinamis untuk antarmuka optimalisasi rute dan pelacakan",
+        "Membangun fitur real-time menggunakan Socket.IO dan integrasi notifikasi push Firebase",
+        "Otomatisasi fitur ekspor (PDF, Excel, CSV) untuk 5.000–20.000 data harian"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "PHP Native",
+        "Vue.js",
+        "Vuex",
+        "Socket.IO",
+        "Firebase",
+        "Axios"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "MOBILE",
+      "name": "Janji Temu Dokter",
+      "nameApp": "DocAPP",
+      "company": "DocAPP",
+      "years": "2025 – 2026",
+      "status": "developing",
+      "description": "Aplikasi mobile untuk pemesanan dan manajemen janji temu dokter dengan notifikasi waktu nyata.",
+      "features": [
+        "Membangun aplikasi Android menggunakan Kotlin dan Jetpack Compose",
+        "Integrasi sistem notifikasi WhatsApp",
+        "Mengembangkan layanan backend menggunakan NestJS"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "NestJS",
+        "MySQL"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/dokapp-android-kotlin",
+          "https://github.com/henryas01/DokApp-android-nestjs"
+        ]
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Platform Layanan Keuangan",
+      "nameApp": "BFIWeb",
+      "company": "PT BFI Finance Indonesia Tbk",
+      "years": "2019 – 2020",
+      "description": "BFI Finance adalah salah satu perusahaan multifinance tertua di Indonesia, terdaftar secara publik di Bursa Efek Indonesia dan mengoperasikan layanan keuangan nasional.",
+      "features": [
+        "Mengembangkan arsitektur frontend menggunakan React.js",
+        "Membangun dan mengintegrasikan API menggunakan .NET Core",
+        "Mengimplementasikan validasi data keuangan dan paginasi sisi server"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        ".NET Core 3",
+        "SQL Server",
+        "jQuery",
+        "jQuery Validation",
+        "DataTables",
+        "REST API"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "MOBILE LLM",
+      "name": "MeetBuddy",
+      "nameApp": "MeetBuddy",
+      "company": "MeetBuddy",
+      "years": "2025 – 2026",
+      "status": "developing",
+      "description": "Aplikasi asisten rapat bertenaga AI berbasis Large Language Models (LLM), saat ini dalam tahap pengembangan aktif.",
+      "features": [
+        "Merancang fitur inti berbasis LLM menggunakan model Phi-4-mini",
+        "Mengembangkan backend Python dengan dukungan streaming waktu nyata",
+        "Membangun klien Android dan REST API menggunakan NestJS"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Python",
+        "Phi-4-mini",
+        "WebSocket",
+        "NestJS",
+        "MySQL"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/meetbuddy-android-python-llm",
+          "https://github.com/henryas01/meetbuddy-android-kotlin",
+          "https://github.com/henryas01/meetbuddy-android-nestjs"
+        ]
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Sistem Perpustakaan Digital",
+      "nameApp": "DigitalLibrary",
+      "company": "DigitalLibrary",
+      "years": "2019 – 2020",
+      "description": "Sistem perpustakaan digital dan manajemen konten untuk mengelola peminjaman buku mahasiswa dan sumber daya akademik.",
+      "features": [
+        "Membangun CMS dan sistem manajemen pengguna",
+        "Mengembangkan fitur peminjaman dan pelacakan buku",
+        "Integrasi analitik, notifikasi email, dan dasbor pelaporan"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "Laravel 7",
+        "jQuery",
+        "Chart.js",
+        "Font Awesome",
+        "SMTP Email (Gmail)",
+        "Google Analytics"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Platform Edukasi",
+      "nameApp": "MoleaWiz",
+      "company": "PT Digital Animasi Asia",
+      "years": "2018 – 2019",
+      "description": "MoleaWiz adalah platform pembelajaran digital berbasis Moodle yang digunakan oleh CIMB Niaga untuk mendukung program pendidikan dan pelatihan online terstruktur.",
+      "features": [
+        "Mengembangkan antarmuka frontend untuk modul pembelajaran dan dasbor",
+        "Membangun dan mengelola layanan backend menggunakan CodeIgniter",
+        "Merancang dan mengelola arsitektur sisi server serta sistem database"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "REST API",
+        "CodeIgniter 3",
+        "Font Awesome",
+        "jQuery"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Profil Web Digima",
+      "nameApp": "DigimaWeb",
+      "company": "PT Digital Animasi Asia",
+      "years": "2018 – 2019",
+      "description": "Digima Asia adalah perusahaan solusi teknologi yang berspesialisasi dalam platform pembelajaran digital dan layanan teknologi perusahaan.",
+      "features": [
+        "Mengembangkan situs web profil perusahaan yang responsif",
+        "Mengimplementasikan layanan backend menggunakan PHP native",
+        "Menangani konfigurasi server dan integrasi database"
+      ],
+      "techStack": [
+        "Bootstrap 4",
+        "PHP Native",
+        "jQuery",
+        "Parallax.js"
+      ],
+      "github": {
+        "type": "private"
+      }
+    },
+    {
+      "category": "MOBILE & WEB",
+      "name": "Proyek E-Commerce UMKM",
+      "nameApp": "Ndenokum",
+      "company": "Ndenokum",
+      "years": "2025",
+      "description": "Platform e-commerce modern untuk pemilik usaha kecil (UMKM) untuk menjual produk mereka secara online. Rasakan kemudahan belanja online dengan Ndenokum. Temukan cara baru untuk tumbuh dan menjual produk Anda secara online.",
+      "features": [
+        "UI modern dibangun dengan React + Next.js untuk web",
+        "Fungsionalitas mobile native menggunakan Kotlin dan Jetpack Compose",
+        "Autentikasi pengguna dan penanganan sesi yang aman",
+        "Notifikasi dan pembaruan waktu nyata"
+      ],
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "tailwindcss"
+      ],
+      "linkProject": "https://ndenokum.vercel.app/",
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/ndenokum"
+        ]
+      }
+    },
+    {
+      "category": "WEB",
+      "name": "Aplikasi Film",
+      "nameApp": "MovieApp",
+      "company": "MovieApp",
+      "years": "2019 – 2020",
+      "description": "Aplikasi film full-stack untuk menjelajah, mencari, dan mengelola data film.",
+      "features": [
+        "Mengembangkan frontend menggunakan React dan Redux",
+        "Membangun backend API menggunakan Express.js",
+        "Mengintegrasikan API film eksternal untuk data waktu nyata"
+      ],
+      "techStack": [
+        "React.js",
+        "Express.js",
+        "Redux",
+        "Material UI",
+        "Axios",
+        "Fetch API"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/moive"
+        ]
+      }
+    }
+  ]
+}

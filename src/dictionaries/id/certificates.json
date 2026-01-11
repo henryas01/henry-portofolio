@@ -1,0 +1,132 @@
+{
+  "title": "Sertifikasi & Prestasi",
+  "description": "Sertifikasi profesional dan prestasi.",
+  "list-certificates": [
+    {
+      "id": 1,
+      "name": "Sertifikasi Spesialis Mobile Web dari Google Developers",
+      "issuer": "Google Developers Kejar",
+      "year": "2018",
+      "description": "Menunjukkan kemampuan membangun aplikasi web mobile yang cepat, responsif, dan dapat diakses menggunakan standar web modern dan best practice.",
+      "verifyUrl": "https://aws.amazon.com/verification",
+      "pdfUrl": "/certificates/google-developer-mobile-web.webp",
+      "icon": "google"
+    },
+    {
+      "id": 2,
+      "name": "Sertifikasi Node.js dari HackerRank",
+      "issuer": "HackerRank",
+      "year": "2021",
+      "description": "Memvalidasi kemampuan praktis dalam pengembangan Node.js, termasuk logika backend, API, dan pengembangan JavaScript asinkron.",
+      "pdfUrl": "/certificates/node-js-hackerrank.webp",
+      "icon": "hackerrank"
+    },
+    {
+      "id": 3,
+      "name": "Sertifikasi PHP dari SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukkan kemampuan membangun aplikasi web dinamis dan server-side menggunakan konsep PHP dasar.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-LRNLWFWL",
+      "pdfUrl": "/certificates/php-sololern-course.webp",
+      "icon": "sololearn"
+    },
+    {
+      "id": 4,
+      "name": "Sertifikasi React & Redux dari SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan membangun aplikasi web yang scalable, termasuk komponen React, manajemen state, dan pengembangan antarmuka yang efektif.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-LRNLWFWL",
+      "pdfUrl": "/certificates/react-redux-sololern-course.webp",
+      "icon": "react"
+    },
+    {
+      "id": 5,
+      "name": "Sertifikasi Problem Solving",
+      "issuer": "HackerRank",
+      "year": "2021",
+      "description": "Menunjukan kemampuan memecahkan masalah menggunakan algoritma, logika, dan berpikir terstruktur.",
+      "verifyUrl": "https://www.hackerrank.com/certificates/f3ae9ae6ccf3",
+      "pdfUrl": "/certificates/problem-solving-hackerrank.webp",
+      "icon": "hackerrank"
+    },
+    {
+      "id": 6,
+      "name": "Training Awareness ISO/IEC 27001",
+      "issuer": "ISMS",
+      "year": "2022",
+      "description": "Memberikan kesadaran akan prinsip-prinsip keamanan informasi dan standar ISO/IEC 27001 untuk melindungi data.",
+      "pdfUrl": "/certificates/iso-awareness.webp",
+      "icon": "security"
+    },
+    {
+      "id": 7,
+      "name": "Sertifikasi SQL dari SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan membangun database menggunakan SQL, termasuk filtering data, join, dan manajemen data dasar.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-W6LDFPNX",
+      "pdfUrl": "/certificates/sql-sololern-course.webp",
+      "icon": "sql"
+    },
+    {
+      "id": 8,
+      "name": "Sertifikasi JavaScript dari SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan membangun aplikasi web yang interaktif menggunakan JavaScript dasar.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-9WUMDWUL",
+      "pdfUrl": "/certificates/javascript-sololern-course.webp",
+      "icon": "javascript"
+    },
+    {
+      "id": 9,
+      "name": "Sertifikasi Code for Marketing (SEO)",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan memahami dasar-dasar SEO dan bagaimana struktur kode mempengaruhi visibilitas mesin pencarian.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-GR8JKGMF",
+      "pdfUrl": "/certificates/code-for-marketing-sololern-course.webp",
+      "icon": "seo"
+    },
+    {
+      "id": 10,
+      "name": "Sertifikasi Responsive Web Design",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan membangun tata letak yang responsif dan dapat diakses pada berbagai perangkat, termasuk mobile, tablet, dan desktop.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-N6QPSP4X",
+      "pdfUrl": "/certificates/response-web-design-sololern-course.webp",
+      "icon": "responsive"
+    },
+    {
+      "id": 11,
+      "name": "Sertifikasi CSS dari SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan membangun gaya, layout, dan desain visual menggunakan fitur-fitur CSS modern.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-3VCNRYXP",
+      "pdfUrl": "/certificates/css-course-sololern-course.webp",
+      "icon": "css"
+    },
+    {
+      "id": 12,
+      "name": "Sertifikasi HTML dari SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Menunjukan kemampuan membangun struktur HTML yang baik, markup semantik, dan best practice konten web.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-UKHVGIIG",
+      "pdfUrl": "/certificates/html-sololearn-coursse.webp",
+      "icon": "html"
+    }
+  ],
+  "continue-learning": "Pembelajaran dan Pertumbuhan Berkelanjutan",
+  "continue-learning-description": "Sertifikasi merepresentasikan milestone dalam perjalanan belajar saya, bukan tujuan akhir. Saya terus-menerus mempelajari teknologi baru, meningkatkan keterampilan yang ada, dan menerapkan pengetahuan melalui proyek-proyek dan pengalaman tangan.",
+  "focus-description": "Fokus saya adalah membangun solusi yang scalable, maintainable, dan dapat beradaptasi dengan standar industri yang terus berkembang.",
+  "focus-tag-1": "Lifelong Learning",
+  "focus-tag-2": "Real-world Experience",
+  "focus-tag-3": "AI Development",
+  "focus-tag-4": "Problem Solving",
+  "focus-tag-5": "Continuous Improvement"
+}

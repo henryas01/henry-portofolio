@@ -1,0 +1,46 @@
+{
+  "web-app-development": "Pengembangan Aplikasi Web",
+  "web-app-description": "Aplikasi web yang dibangun dengan kerangka modern dan best practices. Solusi yang responsif, scalable, dan user-friendly.",
+  "web-app-features": [
+    "React/Next.js",
+    "Pengembangan full-stack",
+    "Integrasi API",
+    "Desain basis data"
+  ],
+  "mobile-app-development": "Pengembangan Aplikasi Mobile",
+  "mobile-app-description": "Aplikasi mobile native dan lintas-platform untuk perangkat Android. Antarmuka yang intuitif dan memiliki performa yang mulus.",
+  "mobile-app-features": [
+    "Kotlin/Java untuk Android",
+    "Swift untuk iOS",
+    "React Native/Flutter",
+    "Deploy ke App Store",
+    "Notifikasi push",
+    "Dukungan offline"
+  ],
+  "custom-software-development": "Pengembangan Perangkat Lunak Kustom",
+  "custom-software-description": "Solusi perangkat lunak yang disesuaikan untuk memenuhi kebutuhan bisnis unik. Dari aplikasi web hingga sistem enterprise.",
+  "custom-software-features": [
+    "Aplikasi web dan mobile yang kustom",
+    "Alat dan tool internal",
+    "Otomasi proses",
+    "Solusi awan",
+    "Analisis data",
+    "Integrasi sistem dan API"
+  ],
+  "request-project": "Bangun Perangkat Lunak Impian Anda dengan Kami",
+  "request-description": "Ubah ide Anda menjadi produk yang scalable dan nyata dengan teknologi modern dan rekayasa yang terbukti.",
+  "get-started-today": "Siapkah Memulai Perjalanan Anda?",
+  "get-started-description": "Daftar sekarang untuk mengirimkan permintaan aplikasi yang rinci dan dapatkan penawaran yang dipersonalisasi untuk proyek Anda",
+  "register-to-request-details": "Daftar untuk Memintaan Detail",
+  "already-have-account": "Sudah punya akun?",
+  "sign-in-here": "Masuk di sini",
+  "how-it-works": "Cara Kerjanya",
+  "register": "Daftar",
+  "create-your-account": "Buat akun Anda",
+  "submit-request": "Kirimkan Permintaan",
+  "describe-your-project": "Deskripsikan proyek Anda",
+  "get-quote": "Dapatkan Penawaran",
+  "receive-pricing-details": "Terima detail harga",
+  "start-building": "Mulai Membangun",
+  "start-building-description": "Ubah ide Anda menjadi kenyataan"
+}

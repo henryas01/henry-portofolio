@@ -1,0 +1,132 @@
+{
+  "title": " Certificates & Achievements",
+  "description": "Professional certifications and accomplishments.",
+  "list-certificates": [
+    {
+      "id": 1,
+      "name": "Google Developer Certifications Mobile Web Specialist",
+      "issuer": "Google Developers Kejar",
+      "year": "2018",
+      "description": "Shows the ability to build fast, responsive, and accessible mobile web applications using modern web standards and best practices.",
+      "verifyUrl": "https://aws.amazon.com/verification",
+      "pdfUrl": "/certificates/google-developer-mobile-web.webp",
+      "icon": "google"
+    },
+    {
+      "id": 2,
+      "name": "Node.js Certified from HackerRank",
+      "issuer": "HackerRank",
+      "year": "2021",
+      "description": "Validates practical skills in Node.js, including backend logic, APIs, and asynchronous JavaScript development.",
+      "pdfUrl": "/certificates/node-js-hackerrank.webp",
+      "icon": "hackerrank"
+    },
+    {
+      "id": 3,
+      "name": "PHP Certification from SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Covers core PHP concepts used to build dynamic and server-side web applications.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-LRNLWFWL",
+      "pdfUrl": "/certificates/php-sololern-course.webp",
+      "icon": "sololearn"
+    },
+    {
+      "id": 4,
+      "name": "React & Redux Certification from SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Demonstrates understanding of React components, state management, and building scalable user interfaces.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-LRNLWFWL",
+      "pdfUrl": "/certificates/react-redux-sololern-course.webp",
+      "icon": "react"
+    },
+    {
+      "id": 5,
+      "name": "Problem Solving Certification",
+      "issuer": "HackerRank",
+      "year": "2021",
+      "description": "Highlights strong problem-solving skills using algorithms, logic, and structured thinking.",
+      "verifyUrl": "https://www.hackerrank.com/certificates/f3ae9ae6ccf3",
+      "pdfUrl": "/certificates/problem-solving-hackerrank.webp",
+      "icon": "hackerrank"
+    },
+    {
+      "id": 6,
+      "name": "Training Awareness ISO/IEC 27001",
+      "issuer": "ISMS",
+      "year": "2022",
+      "description": "Provides awareness of information security principles and ISO/IEC 27001 standards for protecting data.",
+      "pdfUrl": "/certificates/iso-awareness.webp",
+      "icon": "security"
+    },
+    {
+      "id": 7,
+      "name": "SQL Certification from SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Covers database querying using SQL, including data filtering, joins, and basic data management.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-W6LDFPNX",
+      "pdfUrl": "/certificates/sql-sololern-course.webp",
+      "icon": "sql"
+    },
+    {
+      "id": 8,
+      "name": "JavaScript Certification from SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Demonstrates knowledge of JavaScript fundamentals for building interactive web applications.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-9WUMDWUL",
+      "pdfUrl": "/certificates/javascript-sololern-course.webp",
+      "icon": "javascript"
+    },
+    {
+      "id": 9,
+      "name": "Code for Marketing Certification (SEO)",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Introduces technical SEO basics and how code structure impacts search engine visibility.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-GR8JKGMF",
+      "pdfUrl": "/certificates/code-for-marketing-sololern-course.webp",
+      "icon": "seo"
+    },
+    {
+      "id": 10,
+      "name": "Responsive Web Design Certification",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Shows the ability to create responsive layouts that work across mobile, tablet, and desktop devices.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-N6QPSP4X",
+      "pdfUrl": "/certificates/response-web-design-sololern-course.webp",
+      "icon": "responsive"
+    },
+    {
+      "id": 11,
+      "name": "CSS Certification from SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Covers styling, layout techniques, and visual design using modern CSS features.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-3VCNRYXP",
+      "pdfUrl": "/certificates/css-course-sololern-course.webp",
+      "icon": "css"
+    },
+    {
+      "id": 12,
+      "name": "HTML Certification from SoloLearn",
+      "issuer": "SoloLearn",
+      "year": "2021",
+      "description": "Demonstrates understanding of HTML structure, semantic markup, and web content best practices.",
+      "verifyUrl": "https://www.sololearn.com/certificates/CT-UKHVGIIG",
+      "pdfUrl": "/certificates/html-sololearn-coursse.webp",
+      "icon": "html"
+    }
+  ],
+  "continue-learning": " Continuous Learning & Growth",
+  "continue-learning-description": "Certifications represent milestones in my learning journey, not thefinal destination. I continuously explore new technologies, improve existing skills, and apply knowledge through real-world projects and hands-on experience.",
+  "focus-description": "My focus is on building scalable, maintainable solutions while staying adaptable to evolving industry standards and best practices.",
+  "focus-tag-1": "Lifelong Learning",
+  "focus-tag-2": "Real-world Experience",
+  "focus-tag-3": "AI Development",
+  "focus-tag-4": "Problem Solving",
+  "focus-tag-5": "Continuous Improvement"
+}

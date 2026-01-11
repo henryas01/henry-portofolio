@@ -1,0 +1,46 @@
+{
+  "web-app-development": "Web App Development",
+  "web-app-description": "Custom web applications built with modern frameworks and best practices. Responsive, scalable, and user-friendly solutions.",
+  "web-app-features": [
+    "React/Next.js",
+    "Full-stack development",
+    "API integration",
+    "Database design"
+  ],
+  "mobile-app-development": "Mobile App Development",
+  "mobile-app-description": "Native and cross-platform mobile applications for Android devices. Intuitive interfaces and seamless performance.",
+  "mobile-app-features": [
+    "Kotlin/Java for Android",
+    "Swift for iOS",
+    "React Native/Flutter",
+    "App Store deployment",
+    "Push notifications",
+    "Offline support"
+  ],
+  "custom-software-development": "Custom Software",
+  "custom-software-description": "Tailored software solutions to meet unique business needs. From web applications to enterprise systems.",
+  "custom-software-features": [
+    "Custom Web and Mobile applications",
+    "Enterprise and internal tools",
+    "Process automation",
+    "Cloud solutions",
+    "Data analytics",
+    "System and API integration"
+  ],
+  "request-project": "Build Your Dream Software with Us",
+  "request-description": "Turn your ideas into scalable, real-world products with modern technology and proven engineering.",
+  "get-started-today": "Ready to Start Your Journey?",
+  "get-started-description": " Register now to submit detailed application requests and get personalized quotes for your project",
+  "register-to-request-details": "Register to Request Details",
+  "already-have-account": "Already have an account?",
+  "sign-in-here": "Sign in here",
+  "how-it-works": "How It Works",
+  "register": "Register",
+  "create-your-account": "Create your account",
+  "submit-request": "Submit Request",
+  "describe-your-project": "Describe your project",
+  "get-quote": "Get Quote",
+  "receive-pricing-details": "Receive pricing details",
+  "start-building": "Start building",
+  "start-building-description": "Bring your idea to life"
+}
