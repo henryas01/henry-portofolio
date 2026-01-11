@@ -10,6 +10,7 @@ import { Inter } from "next/font/google";
 import { getLocale } from "@app/src/lib/dictionaries/Dictionaries";
 import ServerSideTranslations from "@app/src/lib/dictionaries/ServerSideTranslations";
 import Translations from "@app/src/lib/dictionaries/Translations";
+import { constants } from "buffer";
 
 export const metadata: Metadata = {
   title: Constants.META_EN.TITLE,
@@ -118,6 +119,19 @@ export default async function RootLayout({
         <meta name="theme-color" content={Constants.SITE.THEME_COLOR} />
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: Constants.SITE.NAME,
+              url: Constants.SITE.DOMAIN,
+              jobTitle: Constants.SITE.TAGLINE,
+              sameAs: [Constants.SITE.LINKEDIN, Constants.SITE.GITHUB],
+            }),
+          }}
+        />
       </Head>
 
       <body lang="en">
