@@ -3,14 +3,12 @@ import "./styles/index.css";
 
 import { Constants } from "@src/constants";
 import type { Metadata, Viewport } from "next";
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import StateProvider from "@app/src/context/StateProvider";
-import Head from "next/head";
 import { Inter } from "next/font/google";
 import { getLocale } from "@app/src/lib/dictionaries/Dictionaries";
 import ServerSideTranslations from "@app/src/lib/dictionaries/ServerSideTranslations";
 import Translations from "@app/src/lib/dictionaries/Translations";
-import { constants } from "buffer";
 
 export const metadata: Metadata = {
   title: Constants.META_EN.TITLE,
@@ -94,8 +92,13 @@ export default async function RootLayout({
   const dictionaryObj = await ServerSideTranslations(["common"]);
 
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <body>
+        <StateProvider>
+          <Translations _PropsTranslation={dictionaryObj} locale={locale}>
+            <main id="main-content">{children}</main>
+          </Translations>
+        </StateProvider>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -109,11 +112,6 @@ export default async function RootLayout({
             }),
           }}
         />
-        <StateProvider>
-          <Translations _PropsTranslation={dictionaryObj} locale={locale}>
-            {children}
-          </Translations>
-        </StateProvider>
       </body>
     </html>
   );
