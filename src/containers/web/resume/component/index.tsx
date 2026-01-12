@@ -33,8 +33,9 @@ import {
 } from "react-icons/si";
 import { AiOutlineDotNet } from "react-icons/ai";
 import { BsGit } from "react-icons/bs";
-import { FaGraduationCap, FaLinkedin, FaGithub, FaVuejs } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaVuejs } from "react-icons/fa";
 import Trans from "@app/src/lib/dictionaries/components/Trans";
+import { placeholderImages } from "@app/src/app/ui/placholder-images";
 
 type EducationTranslation = {
   institution: string;
@@ -102,14 +103,8 @@ export default function ResumeComponent() {
   };
   const educations = useEducation();
 
-  const splitByColon = (text: string): string[] => {
-    if (!text.includes(":")) return [text];
-
-    const [title, ...rest] = text.split(":");
-    return [
-      `${title}:`, // keep colon with title
-      rest.join(":").trim(),
-    ];
+  const downloadResume = () => {
+    window.open("/resume/Henryas-resume.pdf", "_blank");
   };
 
   const { setDataHome, name } = useContext(HomeContext);
@@ -139,7 +134,9 @@ export default function ResumeComponent() {
                   alt="Henry AS"
                   width={160}
                   height={160}
-                  priority
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL={placeholderImages}
                   className="object-cover object-center"
                 />
               </div>
@@ -185,7 +182,10 @@ export default function ResumeComponent() {
           </div>
 
           {/* Download CV Button */}
-          <button className="px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:shadow-lg hover:shadow-cyan-500/50 transition-all flex items-center space-x-2 mx-auto">
+          <button
+            onClick={() => downloadResume()}
+            className="px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:shadow-lg hover:shadow-cyan-500/50 transition-all flex items-center space-x-2 mx-auto"
+          >
             <Download className="w-5 h-5" />
             <span>{t("downloadResume")}</span>
           </button>

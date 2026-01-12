@@ -30,6 +30,7 @@ import {
   CarouselPrevious,
 } from "@app/src/components/ui/carousel";
 import Link from "next/link";
+import { placeholderImages } from "@app/src/app/ui/placholder-images";
 
 /* ---------------- TYPES ---------------- */
 
@@ -281,8 +282,11 @@ export default function ProjectsComponent() {
                               alt={selectedProject.name}
                               width={1200} // High-res base
                               height={800} // Defines aspect ratio
-                              priority
-                              className="w-full h-full object-cover transition-transform duration-1000 ease-in-out group-hover/visual-section:scale-110"
+                              // priority
+                              loading="lazy"
+                              placeholder="blur"
+                              blurDataURL={placeholderImages}
+                              className="w-full h-full object-cover transition-transform duration-1000 ease-in-out group-hover/visual-section:scale-110  transition-all "
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent" />
                           </CarouselItem>

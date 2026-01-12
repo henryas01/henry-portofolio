@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-import Image from "next/image";
 import { ArrowRight, Code, Smartphone, Sparkles } from "lucide-react";
 import SpaceBackground from "@app/src/components/SpaceBackground";
 import ParallaxSection from "@app/src/components/ParallaxSection";

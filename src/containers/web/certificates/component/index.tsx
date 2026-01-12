@@ -26,6 +26,7 @@ import { BsFiletypeSql } from "react-icons/bs";
 import { FaHtml5 } from "react-icons/fa6";
 
 import { TbSeo } from "react-icons/tb";
+import { placeholderImages } from "@app/src/app/ui/placholder-images";
 
 type Certificate = {
   id?: number;
@@ -207,6 +208,9 @@ export default function CertificatesComponent() {
                   fill
                   sizes="100vw"
                   className="object-contain"
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL={placeholderImages}
                 />
               </div>
             </div>
