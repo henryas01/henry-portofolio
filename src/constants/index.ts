@@ -13,7 +13,7 @@ export const Constants = {
     LOCATION: "Serang, Banten, Indonesia",
     GITHUB: "https://github.com/henryas01",
     LINKEDIN: "https://www.linkedin.com/in/henry-albiri-salsabila-376b92151/",
-    OG_IMAGE: "/og-image.png",
+    OG_IMAGE: "/og-image.webp",
     THEME_COLOR: "#020617"
   },
 
