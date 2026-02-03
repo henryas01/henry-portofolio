@@ -26,7 +26,8 @@ export const metadata: Metadata = {
         url: Constants.SITE.OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "Henry Albiri S | Developer Portfolio",
+        alt: "Henry Albiri S | Developer Portofolio",
+        type: "image/png",
       },
     ],
     locale: Constants.OPEN_GRAPH.LOCALE_EN,
@@ -105,6 +106,7 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
+              "@id": `${Constants.SITE.DOMAIN}#person`,
               name: Constants.SITE.NAME,
               url: Constants.SITE.DOMAIN,
               jobTitle: Constants.SITE.TAGLINE,

@@ -130,6 +130,15 @@ export default function ProjectsComponent() {
       "/projects/meetbuddy/1.webp",
       "/projects/meetbuddy/2.webp",
       "/projects/meetbuddy/3.webp",
+      "/projects/meetbuddy/4.webp",
+    ],
+    BIDComp: [
+      "/projects/bidcomp/1.webp",
+      "/projects/bidcomp/2.webp",
+      "/projects/bidcomp/3.webp",
+      "/projects/bidcomp/4.webp",
+      "/projects/bidcomp/5.webp",
+      "/projects/bidcomp/6.webp",
     ],
     Ndenokum: [
       "/projects/ndenokum/1.webp",
@@ -163,7 +172,7 @@ export default function ProjectsComponent() {
 
   const projects = useProjects();
   const [selectedProject, setSelectedProject] = useState<ProjectType | null>(
-    null
+    null,
   );
 
   return (

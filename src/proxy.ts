@@ -1,22 +1,31 @@
-import { NextResponse, NextRequest } from 'next/server'
-
+import { NextResponse, NextRequest } from "next/server";
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const userAgent = request.headers.get("user-agent") || "";
 
-  if (pathname.startsWith("/about")) {
-    return NextResponse.redirect(new URL("/home", request.url));
+  const isBot =
+    userAgent.includes("Schema.org") ||
+    userAgent.includes("Googlebot") ||
+    userAgent.includes("bingbot") ||
+    userAgent.includes("DuckDuckBot");
+
+  if (isBot) {
+    return NextResponse.next();
   }
 
-  // Disable admin & customer redirection to home page currently
-  if (pathname.startsWith("/admin") || pathname.startsWith("/customer")) {
+  // coming soon pages will be activated later
+  if (
+    pathname.startsWith("/about") ||
+    pathname.startsWith("/admin") ||
+    pathname.startsWith("/customer")
+  ) {
     return NextResponse.redirect(new URL("/home", request.url));
   }
 
   return NextResponse.next();
-
 }
 
 export const config = {
-   matcher: ["/about/:path*", "/admin/:path*", "/customer/:path*"],
+  matcher: ["/about/:path*", "/admin/:path*", "/customer/:path*"],
 };
