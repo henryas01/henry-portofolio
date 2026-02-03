@@ -6,8 +6,17 @@ const nextConfig = {
   reactStrictMode: true,
   compress: true,
   images: {
-    domains: ["henryas.com", "www.henryas.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "henryas.com",
+        pathname: "/**",
+      },
+    ],
   },
+  // images: {
+  //   domains: ["henryas.com", "www.henryas.com"],
+  // },
 };
 
 module.exports = nextConfig;

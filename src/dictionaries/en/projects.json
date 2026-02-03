@@ -55,6 +55,99 @@
       }
     },
     {
+      "category": "MOBILE & LLM",
+      "name": "MeetBuddy Video Meeting With LLM",
+      "nameApp": "MeetBuddy",
+      "company": "MeetBuddy",
+      "years": "2025 – 2026",
+      "status": "developing",
+      "description": "MeetBuddy is an AI-powered meeting assistant application leveraging Large Language Models (LLMs) to assist users in managing, summarizing, and interacting with meeting content in real time.",
+      "features": [
+        "LLM-powered meeting assistance using Phi-4-mini model",
+        "Python-based AI backend with real-time streaming support via WebSocket",
+        "Android mobile application built with Kotlin and Jetpack Compose",
+        "RESTful API layer developed using NestJS",
+        "Seamless integration between mobile client, AI service, and backend system"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Python",
+        "Phi-4-mini",
+        "WebSocket",
+        "NestJS",
+        "TypeScript",
+        "MySQL"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/meetbuddy-android-python-llm",
+          "https://github.com/henryas01/meetbuddy-android-kotlin",
+          "https://github.com/henryas01/meetbuddy-android-nestjs"
+        ]
+      }
+    },
+    {
+      "category": "MOBILE & BACKEND",
+      "name": "BID CompAuction",
+      "nameApp": "BIDComp",
+      "company": "BID CompAuction",
+      "years": "2025 – 2026",
+      "description": "BID CompAuction is an Android mobile application for auction item bidding and payment, paired with a backend API built with NestJS.",
+      "features": [
+        "Android mobile app built with Kotlin",
+        "Backend API developed using NestJS (TypeScript)",
+        "Auction bidding and item management features",
+        "Integration between mobile frontend and backend services"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "NestJS",
+        "TypeScript",
+        "MySQL"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/BidCompAuction",
+          "https://github.com/henryas01/BidCompAuction-nestjs"
+        ]
+      }
+    },
+    {
+      "category": "MOBILE & BACKEND",
+      "name": "Doctor Appointment",
+      "nameApp": "DocAPP",
+      "company": "DocAPP",
+      "years": "2025 – 2026",
+      "status": "developing",
+      "description": "DocAPP is a mobile application for booking and managing doctor appointments, featuring real-time notifications to improve communication between patients and healthcare providers.",
+      "features": [
+        "Android mobile application built with Kotlin and Jetpack Compose",
+        "Doctor appointment booking and schedule management system",
+        "Real-time WhatsApp notification integration for appointment updates",
+        "Backend services developed using NestJS with RESTful APIs",
+        "Centralized data management using MySQL"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "NestJS",
+        "TypeScript",
+        "MySQL",
+        "WhatsApp API"
+      ],
+      "github": {
+        "type": "public",
+        "links": [
+          "https://github.com/henryas01/dokapp-android-kotlin",
+          "https://github.com/henryas01/DokApp-android-nestjs"
+        ]
+      }
+    },
+    {
       "category": "WEB",
       "name": "Route Optimization & Tracking Platform",
       "nameApp": "MileApp",
@@ -80,33 +173,6 @@
       }
     },
     {
-      "category": "MOBILE",
-      "name": "Doctor Appointment",
-      "nameApp": "DocAPP",
-      "company": "DocAPP",
-      "years": "2025 – 2026",
-      "status": "developing",
-      "description": "A mobile application for booking and managing doctor appointments with real-time notifications.",
-      "features": [
-        "Built Android application using Kotlin and Jetpack Compose",
-        "Integrated WhatsApp notification system",
-        "Developed backend services using NestJS"
-      ],
-      "techStack": [
-        "Kotlin",
-        "Jetpack Compose",
-        "NestJS",
-        "MySQL"
-      ],
-      "github": {
-        "type": "public",
-        "links": [
-          "https://github.com/henryas01/dokapp-android-kotlin",
-          "https://github.com/henryas01/DokApp-android-nestjs"
-        ]
-      }
-    },
-    {
       "category": "WEB",
       "name": "Financial Services Platform",
       "nameApp": "BFIWeb",
@@ -129,37 +195,6 @@
       ],
       "github": {
         "type": "private"
-      }
-    },
-    {
-      "category": "MOBILE LLM",
-      "name": "MeetBuddy",
-      "nameApp": "MeetBuddy",
-      "company": "MeetBuddy",
-      "years": "2025 – 2026",
-      "status": "developing",
-      "description": "An AI-powered meeting assistant application based on Large Language Models, currently under active development.",
-      "features": [
-        "Designed LLM-based core features using Phi-4-mini model",
-        "Developed Python backend with real-time streaming support",
-        "Built Android client and REST API using NestJS"
-      ],
-      "techStack": [
-        "Kotlin",
-        "Jetpack Compose",
-        "Python",
-        "Phi-4-mini",
-        "WebSocket",
-        "NestJS",
-        "MySQL"
-      ],
-      "github": {
-        "type": "public",
-        "links": [
-          "https://github.com/henryas01/meetbuddy-android-python-llm",
-          "https://github.com/henryas01/meetbuddy-android-kotlin",
-          "https://github.com/henryas01/meetbuddy-android-nestjs"
-        ]
       }
     },
     {
@@ -233,7 +268,7 @@
       }
     },
     {
-      "category": "MOBILE & WEB",
+      "category": "WEB",
       "name": "E Commerce UMKM Project",
       "nameApp": "Ndenokum",
       "company": "Ndenokum",
