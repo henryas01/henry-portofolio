@@ -14,6 +14,24 @@
     },
     {
       "id": 2,
+      "name": "Machine Learning Certification",
+      "issuer": "Sololearn",
+      "year": "2026",
+      "description": "Membangun fondasi Machine Learning untuk mengembangkan model AI yang akurat dan berorientasi pada solusi nyata.",
+      "pdfUrl": "/certificates/Machine-learning-sololearn.webp",
+      "icon": "ml"
+    },
+    {
+      "id": 3,
+      "name": "Large Language Models (LLM) Certification",
+      "issuer": "Sololearn",
+      "year": "2026",
+      "description": "Mengembangkan pemahaman Large Language Model (LLM) dan AI generatif untuk menciptakan aplikasi yang lebih inovatif dan interaktif.",
+      "pdfUrl": "/certificates/llm-sololearn.webp",
+      "icon": "llm"
+    },
+    {
+      "id": 4,
       "name": "Sertifikasi Node.js dari HackerRank",
       "issuer": "HackerRank",
       "year": "2021",
@@ -22,7 +40,7 @@
       "icon": "hackerrank"
     },
     {
-      "id": 3,
+      "id": 5,
       "name": "Sertifikasi PHP dari SoloLearn",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -32,7 +50,7 @@
       "icon": "sololearn"
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Sertifikasi React & Redux dari SoloLearn",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -42,7 +60,7 @@
       "icon": "react"
     },
     {
-      "id": 5,
+      "id": 7,
       "name": "Sertifikasi Problem Solving",
       "issuer": "HackerRank",
       "year": "2021",
@@ -52,7 +70,7 @@
       "icon": "hackerrank"
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Training Awareness ISO/IEC 27001",
       "issuer": "ISMS",
       "year": "2022",
@@ -61,7 +79,7 @@
       "icon": "security"
     },
     {
-      "id": 7,
+      "id": 9,
       "name": "Sertifikasi SQL dari SoloLearn",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -71,7 +89,7 @@
       "icon": "sql"
     },
     {
-      "id": 8,
+      "id": 10,
       "name": "Sertifikasi JavaScript dari SoloLearn",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -81,7 +99,7 @@
       "icon": "javascript"
     },
     {
-      "id": 9,
+      "id": 11,
       "name": "Sertifikasi Code for Marketing (SEO)",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -91,7 +109,7 @@
       "icon": "seo"
     },
     {
-      "id": 10,
+      "id": 12,
       "name": "Sertifikasi Responsive Web Design",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -101,7 +119,7 @@
       "icon": "responsive"
     },
     {
-      "id": 11,
+      "id": 13,
       "name": "Sertifikasi CSS dari SoloLearn",
       "issuer": "SoloLearn",
       "year": "2021",
@@ -111,7 +129,7 @@
       "icon": "css"
     },
     {
-      "id": 12,
+      "id": 14,
       "name": "Sertifikasi HTML dari SoloLearn",
       "issuer": "SoloLearn",
       "year": "2021",

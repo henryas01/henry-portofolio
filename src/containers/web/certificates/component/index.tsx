@@ -7,6 +7,8 @@ import {
   FileText,
   ShieldCheck,
   XIcon,
+  Brain,
+  Cpu,
 } from "lucide-react";
 import Image from "next/image";
 import ParallaxSection from "@app/src/components/ParallaxSection";
@@ -54,6 +56,8 @@ export default function CertificatesComponent() {
     seo: TbSeo,
     responsive: DiResponsive,
     security: GrSecure,
+    llm: Brain,
+    ml: Cpu,
   };
 
   const useCertificates = () => {
